@@ -36,6 +36,9 @@ public class LaboratorioExcepciones2   {
         
 
     }
+    //Aca creamos el metodo que lanza la excepcion
+    
+    
     public static void rango(int num,int num1)throws NumberMuchoException{
     if (num>10||num1>10) {
                 throw new NumberMuchoException("El numero tiene un parametro muy alto");
